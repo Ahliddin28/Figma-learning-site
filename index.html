@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css"
+      integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header-section-starts -->
+    <div class="header-page"data-aos="zoom-in">
+      <i
+        class="fas fa-x has-text-white"
+        style="margin-left: 90%"
+        onclick="Delete()"
+      ></i>
+      <br>
+      <center>
+        <button class="btn is-rounded">NEW</button>
+        <b class="has-text-white">LearningHub had just been launched! Check out the Welcome post.</b>
+      </center>
+      <br>
+    </div>
+    <!-- Header-section-ends -->
+
+    <!-- Navbar-section-starts -->
+    <div class="section" >
+      <div class="container">
+        <nav class="navbar" data-aos="zoom-out" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item"><div class="fas fa-gear" id="set"></div><b class="is-title is-4">LearnHub</b></a>
+            <a
+              role="button"
+              class="navbar-burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item"><b class="hover">Code</b></a>
+              <a class="navbar-item"><b class="hover">Design</b></a>
+              <a class="navbar-item"> <b class="hover"> Prototyping</b></a>
+            </div>
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons"><i class="fas fa-search"></i></div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Navbar-section-ends -->
+
+    <!-- Firs-section-starts -->
+    <div class="first-section" data-aos="zoom-out-right">
+      <div class="container">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div data-hash="slide1" class="swiper-slide">
+              <div class="box">
+                <div class="columns" id="rad">
+                  <div class="column has-text-left mt-6 pt-6">
+                    <h1 class="title is-3">Figma Course</h1>
+                    <p class="has-text-grey title is-6">
+                      Figma is a vector graphics editor and prototyping tool
+                      which is primarily web-based.
+                    </p>
+                    <br /><br />
+                    <a href="#" class="button is-rounded"
+                      >Read <i class="fas fa-angle-right ml-3"></i
+                    ></a>
+                  </div>
+                  <div class="column" id="bgimg">
+                    <img src="Figma-logo 2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-hash="slide1" class="swiper-slide">
+              <div class="box">
+                <div class="columns"  id="rad">
+                  <div class="column has-text-left mt-6 pt-6">
+                    <h1 class="title is-3">Figma Course</h1>
+                    <p class="has-text-grey title is-6">
+                      Figma is a vector graphics editor and prototyping tool
+                      which is primarily web-based.
+                    </p>
+                    <br /><br />
+                    <a href="#" class="button is-rounded"
+                      >Read <i class="fas fa-angle-right ml-3"></i
+                    ></a>
+                  </div>
+                  <div class="column" id="bgimg">
+                    <img src="Figma-logo 2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-hash="slide1" class="swiper-slide">
+              <div class="box">
+                <div class="columns" id="rad">
+                  <div class="column has-text-left mt-6 pt-6">
+                    <h1 class="title is-3">Figma Course</h1>
+                    <p class="has-text-grey title is-6">
+                      Figma is a vector graphics editor and prototyping tool
+                      which is primarily web-based.
+                    </p>
+                    <br /><br />
+                    <a href="#" class="button is-rounded"
+                      >Read <i class="fas fa-angle-right ml-3"></i
+                    ></a>
+                  </div>
+                  <div class="column" id="bgimg">
+                    <img src="Figma-logo 2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-hash="slide1" class="swiper-slide">
+              <div class="box">
+                <div class="columns" id="rad">
+                  <div class="column has-text-left mt-6 pt-6">
+                    <h1 class="title is-3">Figma Course</h1>
+                    <p class="has-text-grey title is-6">
+                      Figma is a vector graphics editor and prototyping tool
+                      which is primarily web-based.
+                    </p>
+                    <br /><br />
+                    <a href="#" class="button is-rounded"
+                      >Read <i class="fas fa-angle-right ml-3"></i
+                    ></a>
+                  </div>
+                  <div class="column" id="bgimg">
+                    <img src="Figma-logo 2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- First-section-ends -->
+
+    <!-- second-section-starts -->
+
+    <div class="second-page" data-aos="zoom-out-left">
+      <div class="container">
+        <div class="section">
+          <div class="text">
+            <h1 class="title is-3">Recent</h1>
+            <a href="#" id="right">See all</a>
+          </div>
+
+          <div class="columns">
+            <div class="column">
+              <div id="box">
+                <div class="block">
+                  <img src="Page-1.png" alt="" />
+                </div>
+                <div class="text-cont pl-5 pb-6 pt-3">
+                  <h1 class="title is-3">Next.js Introduction</h1>
+                  <p>
+                    Next.js is an open-source development framework <br />
+                    built on top of Node.js.
+                  </p>
+                  <br />
+                  <button
+                    class="button has-background-link has-text-white is-rounded"
+                  >
+                    Read <i class="fas fa-angle-right ml-3"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div id="box">
+                <div class="block2 p-5">
+                  <br />
+                  <img src="Union.png" alt="" /><br />
+                </div>
+                <div class="text-cont pl-5 pb-6 pt-6">
+                  <h1 class="title is-3">Remix Introduction</h1>
+                  <p>
+                    Remix is a new framework that blurs the <br />
+                    line between server and client.
+                  </p>
+                  <br />
+                  <button
+                    class="button has-background-link has-text-white is-rounded"
+                  >
+                    Read <i class="fas fa-angle-right ml-3"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- second-section-ends -->
+
+    <!-- third-section-starts -->
+    <div class="third-section-starts"data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">
+      <div class="container">
+        <div class="section">
+          <div class="columns1 has-background-light p-6 is-rounded" id="round">
+            <div class="column" id="center2">
+              <center>
+                <div id="envelop" class="mr-4">
+                  <img src="envelop.png" alt="" />
+                </div>
+                </div>
+              </center>
+              <div class="column">
+                <h1 class="title is-3">The best Newsletter on the web</h1>
+                <p>
+                  Recieve posts updates straight to your inbox, including full
+                  additional posts.
+                </p>
+              </div>
+            <div class="column" id="center2">
+             <div class="columns1">
+              <div class="column">
+                <input
+                type="text"
+                class="input ml-3 mr-2"
+                placeholder="Email address"
+              />
+              </div>
+              <div class="column">
+                <button class="button is-rounded">
+                  <b>Subscribe</b> <i class="fas fa-angle-right ml-3"></i>
+                </button>
+              </div>
+             </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- third-section-ends -->
+
+      <!-- Fourth-section-starts -->
+      <div class="second-page"data-aos="flip-left">
+        <div class="container">
+          <div class="section">
+            <div class="text">
+              <h1 class="title is-3">Top</h1>
+              <a href="#" id="right">See all</a>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div id="box">
+                  <div class="block p-5">
+                    <img src="logo1.png" alt="" />
+                  </div>
+                  <div class="text-cont pl-5 pb-6 pt-3">
+                    <h1 class="title is-3">Next.js Introduction</h1>
+                    <p>
+                      Next.js is an open-source development framework <br />
+                      built on top of Node.js.
+                    </p>
+                    <br />
+                    <button
+                      class="button has-background-link has-text-white is-rounded"
+                    >
+                      Read <i class="fas fa-angle-right ml-3"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div id="box">
+                  <div class="block2 p-5">
+                    <br />
+                    <img src="logo2.png" alt="" /><br />
+                  </div>
+                  <div class="text-cont pl-5 pb-6 pt-6">
+                    <h1 class="title is-3">Remix Introduction</h1>
+                    <p>
+                      Remix is a new framework that blurs the <br />
+                      line between server and client.
+                    </p>
+                    <br />
+                    <button
+                      class="button has-background-link has-text-white is-rounded"
+                    >
+                      Read <i class="fas fa-angle-right ml-3"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div id="box">
+                  <div class="block3 p-6">
+                    <br />
+                    <img src="logo3.png" alt="" /><br />
+                  </div>
+                  <div class="text-cont pl-5 pb-6 pt-6">
+                    <h1 class="title is-3">Remix Introduction</h1>
+                    <p>
+                      Ruby on Rails, or Rails, is a server-side web application
+                      framework written in Ruby.
+                    </p>
+                    <br />
+                    <button
+                      class="button has-background-link has-text-white is-rounded"
+                    >
+                      Read <i class="fas fa-angle-right ml-3"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fourth-section-ends -->
+
+      <!-- Fifth -xection-strats -->
+      <div class="second-page"data-aos="fade-down">
+        <div class="container">
+          <div class="section">
+            <div class="text">
+              <h1 class="title is-4">Categories</h1>
+              <a href="#" id="right">See all</a>
+            </div>
+            <div class="columns">
+              <div class="column">
+                <div id="box1">
+                  <div class="">
+                    <h1 class="title is-2 has-text-white">Code</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div id="box2">
+                  <div class="">
+                    <br />
+                    <h1 class="title is-2 has-text-white">Design</h1>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div id="box3">
+                  <div class="">
+                    <br />
+                    <h1 class="title is-2 has-text-white">Prototyping</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fifth-section-ends-->
+
+      <!-- Footer-section-starts -->
+      <center>
+        <footer class="footer"data-aos="zoom-out-down">
+            <div class="container section">
+              <div class="columns1">
+                <div class="column">
+                  <b>Tutorials</b>
+                  <p>Code</p>
+                  <p>Design</p>
+                  <p>Prototyping</p>
+                </div>
+                <div class="column">
+                  <b>Tags</b>
+                  <p>Web3</p>
+                  <p>React</p>
+                  <p>Crypto</p>
+                </div>
+                <div class="column">
+                  <b>Tutorials</b>
+                  <p>Code</p>
+                  <p>Design</p>
+                  <p>Prototyping</p>
+                </div>
+                <div class="column">
+                  <b>Tutorials</b>
+                  <p>Code</p>
+                  <p>Design</p>
+                  <p>Prototyping</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </center>
+    <!-- Footer-section-ends -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
